@@ -255,3 +255,6 @@ for start_idx in range(1, valid_max_start):
         print(start_idx)
     elif matched_pieces_count[start_idx] > 0:
         write_log(f"  -- Позиция {start_idx}: совпало подстрок {matched_pieces_count[start_idx]} из {total_pattern_pieces}. Не подходит.")
+
+print(f"Длина самой длинной цепочки из суффиксных ссылок: {ac.max_suffix_chain}")
+print(f"Длина самой длинной цепочки из терминальных ссылок: {ac.max_terminal_chain}")

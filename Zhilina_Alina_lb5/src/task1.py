@@ -223,3 +223,5 @@ results.sort()
 for start_pos, p_num in results:
     print(f"{start_pos} {p_num}")
 
+print(f"Длина самой длинной цепочки из суффиксных ссылок: {ac.max_suffix_chain}")
+print(f"Длина самой длинной цепочки из терминальных ссылок: {ac.max_terminal_chain}")
